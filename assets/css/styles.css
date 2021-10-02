@@ -51,6 +51,7 @@
 }
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body{
   margin: var(--header-height) 0 0 0;
@@ -58,7 +59,9 @@ body{
   font-size: var(--normal-font-size);
   color: var(--second-color);
   background: #2E3440;
-  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: auto;
 }
 h1,h2,p{
   margin: 0;
